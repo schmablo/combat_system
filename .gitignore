@@ -1,0 +1,36 @@
+# build directory
+/build/
+/build/*
+
+# VSCode settings
+.vsc/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# .exe and libs
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+
+# GoogleTest downloaded files
+_deps/
+
+# Logs and temp files
+*.log 
+*.tmp 
+
+# OS specifics (win)
+Thumbs.db
+*.obj
+*.pdb
+*.idb
+*.ipdb
+*.ilk
+
